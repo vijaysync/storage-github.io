@@ -1,0 +1,55 @@
+.Container {
+    display: flex;
+    border: 1px solid whitesmoke;
+    width: 62%;
+    transition: width 2s ease-in;
+    margin: auto;
+    margin-top: 6%;
+    height: 35em;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    .left_pane {
+        background-color: #02b0ac;
+        border-radius: 5px;
+        width: 20em;
+        z-index: 1;
+        position: relative;
+        .set_padding {
+            padding: 18%;
+            color: white;
+            margin-top: 25%;
+        }
+    }
+    .right_pane {
+        flex-grow: 3;
+        position: relative;
+        .form_align {
+            padding-left: 8%;
+            width: 76%;
+            margin-top: 18%;
+            .login_style {
+                margin-left: 12%;
+                margin-bottom: 11%;
+                color: #02b0ac;
+            }
+        }
+    }
+}
+
+.but_style {
+    width: 78%;
+    border-radius: 11px;
+    background-color: #02b0ac;
+    border: 1px solid;
+}
+
+// @keyframes left {
+//     from {left:0px; top:0px;}
+//     to {left:40.9em; top:0px;}
+//   }
+
+//   @keyframes right {
+//     from {right:0px; top:0px;}
+//     to {right:19.9em; top:0px;}
+//   }
+ 
